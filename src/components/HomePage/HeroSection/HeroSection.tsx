@@ -33,7 +33,7 @@ function HeroSection() {
                     <p className="location"><FaLocationDot /> Karachi, Pakistan</p>
                     <Tags tags={tags} />
                     <div style={{ display: "flex", gap: "10px" }}>
-                        <Button>CONTACT ME</Button>
+                        <a href="mailto:rehmanubaid2003@gmail.com" target="_blank"><Button>CONTACT ME</Button></a>
                         <Button>DOWNLOAD RESUME</Button>
                     </div>
                     <SocialIcons />

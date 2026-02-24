@@ -12,7 +12,7 @@ function ContentSection() {
 
             <div>
                 <h3>WORK EXPERIENCE</h3>
-                <p>Software Engineer @ Techstack Digital</p>
+                <p>Software Engineer @ Techstack Digital (Present)</p>
             </div>
 
             <div>
@@ -39,8 +39,7 @@ function ContentSection() {
                 <h3>ACHIEVEMENTS</h3>
                 <div style={{ display: "flex", gap: "10px" }}>
                     <FaTrophy color={"#ffc107"} />
-                    <p>Won 2nd place at the startup pitching competition at KarachiAI pitching <a style={{ textDecoration: "underline" }} target="_blank" href="https://cloudnooe.com">CloudNOOE</a> alongside my teammate.</p>
-                </div>
+                    <p>Won 2nd place at the KarachiDotAI startup pitching competition, presenting <a style={{ textDecoration: "underline" }} target="_blank" href="https://cloudnooe.com">CloudNOOE</a> alongside my teammate.</p>                </div>
                 <br />
                 <div style={{ display: "flex", gap: "10px" }}>
                     <FaTrophy color={"#ffc107"} />
@@ -61,7 +60,12 @@ function ContentSection() {
 
             <div>
                 <h3>SKILLS</h3>
-                <p>Python, Django, NodeJs, React, AWS</p>
+                <p>Unit Testing, Object Oriented Programming, Problem Solving, Communication, Teamwork</p>
+            </div>
+
+            <div>
+                <h3>TOOLS & TECHNOLOGIES</h3>
+                <p>Python, Django, PyTest, Celery, NodeJs, React / Next, AWS, Docker, Scrapy, Selenium, Postgres</p>
             </div>
 
             <div>
