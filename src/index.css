@@ -47,14 +47,14 @@ a {
   gap: 20px;
 }
 
-.nav-links a, .navbar p {
+.nav-links a {
   text-decoration: none;
   color: white;
   cursor: pointer;
   transition: color 0.3s ease;
 }
 
-.nav-links a:hover, .navbar p:hover {
+.nav-links a:hover {
   color: #9929EA;
 }
 
