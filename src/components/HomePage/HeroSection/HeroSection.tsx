@@ -7,7 +7,6 @@ import SocialIcons from "../../SocialIcons";
 
 function HeroSection() {
     const tags: Tag[] = [
-        { name: "Software Engineer", url: "#" },
         { name: "Python", url: "https://www.python.org/" },
         { name: "AWS", url: "https://aws.amazon.com/" },
         { name: "React", url: "https://react.dev/" },
@@ -25,16 +24,16 @@ function HeroSection() {
                     <h1>UBAID UR REHMAN</h1>
                     <p className="employment">
                         <GoOrganization />
-                        <span style={{marginLeft: "5px"}}>Software Engineer @ Techstack Digital</span>
+                        <span style={{ marginLeft: "5px" }}>Software Engineer @ Techstack Digital</span>
                     </p>
                     <p className="description">
-                        With a strong background in software engineering, I specialize in building scalable and maintainable applications. My experience spans backend development with Python and Django, cloud infrastructure on AWS, and frontend work with React, allowing me to deliver end-to-end solutions that are both efficient and user-friendly.
+                        Software Engineer with 4+ years of experience building scalable backend systems and AI-powered applications. Skilled in Python, Django, AWS, and modern LLM frameworks, with experience designing cloud-native solutions, automating deployments, and developing production-ready software.
                     </p>
                     <p className="location"><FaLocationDot /> Karachi, Pakistan</p>
                     <Tags tags={tags} />
-                    <div style={{ display: "flex", gap: "10px" }}>
-                        <Button>CONTACT ME</Button>
-                        <Button>DOWNLOAD RESUME</Button>
+                    <div className="hero-buttons">
+                        <a href="mailto:rehmanubaid2003@gmail.com" target="_blank"><Button>CONTACT ME</Button></a>
+                        <a href="/RESUME.pdf"><Button>DOWNLOAD RESUME</Button></a>
                     </div>
                     <SocialIcons />
                 </div>

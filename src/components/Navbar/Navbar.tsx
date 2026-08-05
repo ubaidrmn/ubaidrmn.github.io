@@ -1,5 +1,4 @@
-import { useEffect } from "react";
-import { useLocation } from "react-router";
+import { Link, useLocation } from "react-router";
 
 function Navbar() {
     let location = useLocation()
@@ -11,10 +10,10 @@ function Navbar() {
     return (
         <div className="container">
             <nav className="navbar">
-                <p className="logo">UBAID REHMAN</p>
+                <p>UBAID UR REHMAN</p>
                 <div className="nav-links">
-                    <a style={location.pathname === "/" ? activeLinkStyle : {}} href="/">HOME</a>
-                    <a style={location.pathname === "/projects" ? activeLinkStyle : {}} href="/projects">PROJECTS</a>
+                    <Link style={location.pathname === "/" ? activeLinkStyle : {}} to="/">HOME</Link>
+                    <Link style={location.pathname === "/projects" ? activeLinkStyle : {}} to="/projects">PROJECTS</Link>
                 </div>
             </nav>
         </div>
